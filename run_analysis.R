@@ -57,5 +57,5 @@ names(subject_data) <- "Subject"
 tidy <- cbind(subject_data, y_data, x_data)
 
 #5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-write.table(tidy,file="tidy.csv",sep=",",row.names = FALSE) 
-print("Finished processing. Tidy dataset has been written to tidy.csv")
+write.table(tidy,file="tidydata.csv",sep=",",row.names = FALSE) 
+print("Finished processing. Tidy dataset has been written to tidydata.csv")
